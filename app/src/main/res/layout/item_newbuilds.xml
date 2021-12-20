@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardCornerRadius="10dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="10dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="75dp"
+                    android:id="@+id/iv_build_photo"
+                    android:layout_height="75dp"
+                    android:src="@mipmap/ic_launcher"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@+id/iv_build_photo"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tv_name_gk_item"
+                        android:textColor="#c96920"
+                        android:textStyle="bold"
+                        android:text="ЖК ЗИЛАРТ"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:id="@+id/tv_group_name_item"
+                        android:textColor="#c96920"
+                        android:text="Група ЛСР"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#c96920"
+                        android:id="@+id/tv_adress_item"
+                        android:layout_marginTop="5dp"
+                        android:text="г.Москва, ул. Автозавод"/>
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:maxLines="2"
+                android:id="@+id/tv_metro_item"
+                android:textColor="#000"
+                android:text="Зил,Бла,Бла"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:id="@+id/tv_count_sell_item"
+                android:text="Квартир в продаже:412"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textColor="#000"
+                android:id="@+id/tv_floar_gk_item"
+                android:text="Єтажей ЖК:4-12"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_square_item"
+                android:layout_marginTop="10dp"
+                android:text="Площадь квартир"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:id="@+id/tv_dedline_item"
+                android:layout_marginTop="10dp"
+                android:text="Сроки по здаче"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:id="@+id/tv_mark_erz_item"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Оценка ерз"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="#000"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/tv_price_item"
+                android:layout_marginTop="10dp"
+                android:text="Квартири от"/>
+
+
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</LinearLayout>
